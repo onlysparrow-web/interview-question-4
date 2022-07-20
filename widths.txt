@@ -1,0 +1,53 @@
+1. What is the use of doctype HTML?
+Doctype is used to provide the information to the browser that in which mark up language the web page is built.
+
+
+2. Purpose of meta tag?
+Meta tag gives datas of different informations.
+used to portray keywords, author,viewport settings.
+also used by search engines and web services to rank web pages.
+
+4. Difference between psueo class and psuedo elements?
+pseudo classes are used to select or style a specific element under specific conditions. ex- a:hover
+structual pseudo class are used to select a tag from the structual tree.ex: #section:nth-child
+
+pseudo elements are used to create a new element which isn't present on the html file, where it is used with double colon (::).
+used to make animation for webpage. ex- ::before, ::after.
+
+
+6. Use of svg and canvas
+Scalable Vector Graphics-SVG used in html for printing 2d-graphics in web page.
+Canvas-Canvas is used to draw graphics through javascript instead of using diretly on html file.
+
+7. Media querries
+media queries are used for developing a responsive web page.
+used as a condition in css, so only when the condition meets the styles under the media querie will be applied to the html file
+
+8. Orientation
+read only property of screen interface.
+an instance is used to detect the orientation of the screen.
+
+9. Set time out and set interval difference
+set timeout- when a function is called with set timeout, the function will be called only after the timeout interval and only once.
+set interval-when a function is called with set interval, the specific function is called for each interval mpre than once until metting the condition mentioned by the programmer.
+
+10. Box model.
+box model defines the layout of the page.
+it contains
+*margin
+*border
+*padding in all four sides of the page.
+followed by the content
+
+11. Attribute.
+attributes are used on tag to control the behaviour of that specific tag
+
+12.Use of default (reset) css
+every browser has a default stylesheet for the webpage appearance.
+in order to reset all default styling by the browser reset cs is used.
+
+13. In span tag I give width:50px:
+Padding: 5px;
+Margin : 5px;
+Now calculate width
+Ans-Now the final width will be 60px by adding the padding on both side 5px + 5px +(width:50px)= 60px.
